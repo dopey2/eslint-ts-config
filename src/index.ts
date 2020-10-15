@@ -17,5 +17,5 @@ const f = (
     e: string,
     g: string
 ) => {
-    console.log(d, e , g);
+    console.log(d, e , g)
 };
