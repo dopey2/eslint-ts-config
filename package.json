@@ -9,7 +9,7 @@
     "lint": "eslint ./src/**",
     "fix": "eslitn ./src/** --fix",
     "start": "yarn compile & node index.js",
-    "commit": "cz"
+    "postinstall": "husky install"
   },
   "repository": {
     "type": "git",
