@@ -1,0 +1,40 @@
+{
+  "name": "eslint-ts-config",
+  "version": "1.0.0",
+  "description": "Eslint config for typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc -p tsconfig.json --skipLibCheck",
+    "lint": "eslint ./src/**",
+    "fix": "eslitn ./src/** --fix",
+    "start": "yarn compile & node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dopey2/eslint-ts-config.git"
+  },
+  "keywords": [
+    "estlint",
+    "typescript",
+    "config",
+    "ts",
+    "tslint",
+    "dopey2"
+  ],
+  "author": "dopey2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dopey2/eslint-ts-config/issues"
+  },
+  "homepage": "https://github.com/dopey2/eslint-ts-config#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.3"
+  }
+}

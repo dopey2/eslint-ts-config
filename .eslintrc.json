@@ -1,0 +1,40 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "@typescript-eslint/tslint"
+  ],
+  "rules": {
+    "brace-style": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "never",
+        "functions": "never",
+        "objects": "always-multiline"
+      }
+    ],
+    "curly": "error",
+    "function-paren-newline": ["error", "multiline"],
+    "key-spacing": ["error", {"beforeColon": false, "afterColon": true}],
+    "max-len": ["error", {
+      "code": 80,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "tabWidth": 4
+    }],
+    "no-multi-spaces": "error",
+    "no-multiple-empty-lines": "error",
+    "no-unused-vars": "warn",
+    "object-curly-spacing": ["error", "always"],
+    "operator-linebreak": ["error", "after"],
+    "quote-props": ["error", "consistent"],
+    "semi": ["error", "always"],
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "space-in-parens": ["error", "never"]
+  }
+}

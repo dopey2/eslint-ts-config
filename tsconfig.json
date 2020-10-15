@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2015",
+    "module": "es2015",
+    "jsx": "react-native",
+    "noEmit": false,
+    "outDir": "./build",
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./node_modules",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "lib" : ["es6"],
+    "rootDir": "./",
+    "noUnusedParameters": true,
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
