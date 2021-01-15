@@ -44,6 +44,7 @@
     ],
     "quote-props": ["error", "consistent"],
     "semi": ["error", "always"],
+    "semi-spacing": ["error", {"before": false, "after": true}],
     "space-before-blocks": "error",
     "space-before-function-paren": ["error", "never"],
     "space-infix-ops": ["error", { "int32Hint": false }],
